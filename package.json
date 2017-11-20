@@ -1,0 +1,14 @@
+{
+  "name": "DenshoLab2017seminar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shunsuke Ito",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  },
+  "scripts": {
+    "build": "node index.js",
+    "clean": "rm -rf build/*"
+  }
+}

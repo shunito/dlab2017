@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# DLAB Settings
+build/
+screenshot/
+ace-report/
+!.gitkeep

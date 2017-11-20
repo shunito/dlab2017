@@ -1,0 +1,21 @@
+# ddconv.yml
+# でんでんコンバーター設定ファイル
+# 銀河鉄道の夜
+
+ddconvVersion: '1.0'
+titles:
+  - content: 銀河鉄道の夜
+creators:
+  - content: 宮沢賢治
+    role: aut
+pageDirection: rtl
+language: ja
+options:
+  titlepage: false
+  tocInSpine: true
+  displayLandmarksNav: true
+  autoTcy: true
+  tcyDigit: 2
+  autoSentenceWrap: false
+ibooks:
+  version: '0.1'
