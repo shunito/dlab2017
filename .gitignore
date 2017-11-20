@@ -58,7 +58,7 @@ typings/
 .env
 
 # DLAB Settings
-build/
-screenshot/
-ace-report/
+build/*
+screenshot/*
+ace-report/*
 !.gitkeep
