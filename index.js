@@ -132,17 +132,19 @@ const isDownloadComplete = async(path) => {
 
     page.on('response', res => {
         (async() => {
-//            console.log( res );
+            //console.log( res );
             const headers = res.headers;
             const reg = new RegExp('filename="(.+)"');
 
             if( res.ok ){
                 let contentDisposition = headers['content-disposition'];
-                //console.log("content Disposition:" , contentDisposition);
-                let content = contentDisposition.match( reg );
-                if( content ) {
-                    fname = pathUtil.join( downloadPath, content[1]);
-                    //console.log( "Download:", fname );
+                if( contentDisposition ){
+                    console.log("content Disposition:" , contentDisposition);
+                    let content = contentDisposition.match( reg );
+                    if( content ) {
+                        fname = pathUtil.join( downloadPath, content[1]);
+                        //console.log( "Download:", fname );
+                    }
                 }
             }
         })();
