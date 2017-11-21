@@ -8,7 +8,7 @@ titles:
 creators:
   - content: 宮沢賢治
     role: aut
-pageDirection: rtl
+pageDirection: ltr
 language: ja
 options:
   titlepage: false
