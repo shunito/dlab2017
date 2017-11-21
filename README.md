@@ -8,4 +8,4 @@
 [ハンズオン資料：Githubアカウント開設編](https://docs.google.com/presentation/d/1YEGeMwONrNi38_EUOKS63Taz_4exlZOozEmaPmw6qpE/edit?usp=sharing)
 
 ## ハンズオン資料
-2017年11月21日に公開予定
+2017年11月21日(中になんとか)公開予定
